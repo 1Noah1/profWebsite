@@ -1,0 +1,55 @@
+/** https://hookagency.com/wp-content/uploads/2021/08/lemon-lime-1536x1024.png */
+@import url('https://fonts.cdnfonts.com/css/tisa-sans-pro');
+
+
+html
+{
+   color: #000 !important;
+   font-family: "Tisa Sans Pro" !important;
+}
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .xing {
+    background: #026466;
+    color: white;
+  }
+  .mail {
+    background: rgb(40, 85, 103);
+    color: black;
+    height: 25px;
+  }
+  .mastodon {
+    background: rgb(243, 243, 243);
+    color: black;
+    height: 25px;
+  }
+.mas-img{
+
+  height: 35px;
+}
+
+
