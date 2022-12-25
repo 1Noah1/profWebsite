@@ -1,12 +1,6 @@
 <div class="card-area">
-<div  class="card" *ngFor="let cards of CARDS" >
-
-
-  {{cards.name}}
-  <div class="card-extended" *ngIf=" cards.show"></div>
-
-
-
+  <div class="card" *ngFor="let cards of CARDS">
+    <h1>{{ cards.name }}</h1>
+    <div class="card-extended" *ngIf="cards.show"></div>
+  </div>
 </div>
-
-
